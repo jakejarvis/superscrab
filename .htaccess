@@ -1,0 +1,6 @@
+Options -indexes
+
+RewriteEngine on
+RewriteRule ^picasso/?$                   picasso.php [L]
+RewriteRule ^voila/?$                  voila.php [L]
+RewriteRule ^fame/([^/.]+)/?$          add_to_gallery.php?masterpiece_id=$1 [L]
