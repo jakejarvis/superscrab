@@ -1,11 +1,11 @@
 <?php
 
-error_reporting(E_ALL);
-ini_set('display_errors', '1');
+//error_reporting(E_ALL);
+//ini_set('display_errors', '1');
 
 if(!$_POST) {
-  header("Location:/");
-  die();
+//  header("Location:/");
+//  die();
 }
 
 // RESET TEMP FILE
@@ -78,7 +78,7 @@ $this_id = mysql_insert_id();
 
   <div class="row">
     <div class="col-md-12">
-      <img src="/masterpieces/<?= $file_name ?>" style="width:100%; border: 6px solid #ff0000">
+      <img src="/masterpieces/<?= $file_name ?>" style="width:100%; border: 6px solid #ff0000" alt="#funwithsuperscrab">
     </div>
   </div>
 
@@ -88,7 +88,7 @@ $this_id = mysql_insert_id();
       
       <div class="row">
         <div class="col-md-12 text-center">
-          <img src="/img/superscrab-logo-large.png" style="width: 200px; height: 200px; margin-top: 20px;">
+          <img src="/img/superscrab-logo-large.png" style="width: 200px; height: 200px; margin-top: 20px;" alt="#funwithsuperscrab" title="#funwithsuperscrab">
         </div>
       </div>
       <div class="row">
@@ -122,7 +122,21 @@ $this_id = mysql_insert_id();
   <!-- end header -->
 
 
+  <hr>
+  
+  <div class="text-center">
+    Made with <span style="color:#ff0000">&hearts;</span> for <a href="http://supes.io">Supes</a> by <a href="http://scrabble.io">Scrabble</a>.
+    <br><br>
+    <a href="http://validator.w3.org/check?uri=http%3A%2F%2Fsuperscrab.com%2Fvoila" target="_blank"><img src="/img/valid-html5-button.png" alt="W3C HTML5 Verified"></a>
+    <img src="/img/90s/notepad.gif" alt="GET NOTEPAD">
+    <img src="/img/90s/ns_logo.gif" alt="Netscape Now! 3.0">
+    <img src="/img/90s/ie_logo.gif" alt="Free MS Internet Explorer">
+    <img src="/img/90s/noframes.gif" alt="Campaign Against FRAMES!">
+    <br>
+    <img src="/img/90s/counter.gif" alt="This many awesomes!">
+  </div>
 
+</div>
 
 
 
